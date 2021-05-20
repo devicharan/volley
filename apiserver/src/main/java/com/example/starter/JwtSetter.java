@@ -1,7 +1,8 @@
 package com.example.starter;
 
 import io.vertx.core.Handler;
-import io.vertx.reactivex.ext.web.Cookie;
+
+import io.vertx.reactivex.core.http.Cookie;
 import io.vertx.reactivex.ext.web.RoutingContext;
 
 public class JwtSetter  implements Handler<RoutingContext> {
